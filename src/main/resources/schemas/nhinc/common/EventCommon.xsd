@@ -281,6 +281,7 @@
 		</xsd:sequence>
 	</xsd:complexType>
 	<!-- end XDS request -->
+    
 	<!-- begin XDS Response (Async) -->
 	<xsd:complexType name="XDSResponseMessageType">
 		<xsd:sequence>
@@ -297,8 +298,6 @@
 			<xsd:element name="receivingHomeCommunity" type="nccommon:HomeCommunityType"/>
 		</xsd:sequence>
 	</xsd:complexType>
-	<!-- end XDSrequest -->
-	
 </xsd:schema>
 
 
